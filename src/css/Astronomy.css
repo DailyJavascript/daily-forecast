@@ -1,0 +1,39 @@
+.astronomy {
+    width: 400px;
+    height: 225px;
+    flex-grow: 1;
+}
+
+.astronomy-header {
+    text-align: center;
+    background-color: #D3D3D3;
+    color: white;
+    font-weight: bold;
+}
+
+.astronomy-buttons {
+    display: flex;
+}
+
+.day-details {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    justify-content: space-around;
+}
+
+.night-details {
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+}
+
+.astronomy-details {
+    display: flex;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

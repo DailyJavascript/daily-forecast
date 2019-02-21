@@ -1,0 +1,44 @@
+.weekly-weather {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  justify-content: space-around;
+  height: 150px;
+}
+
+.weekly-weather .icon {
+  height: 52px;
+  width: 38px;
+}
+
+.weekly-weather-day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .weekly-weather {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .weekly-weather-day {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .test1 {
+    flex: 4;
+ }
+
+  .test2 {
+    flex: 2;
+ }
+
+  .test3 {
+    flex: 0;
+  }
+}

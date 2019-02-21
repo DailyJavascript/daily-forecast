@@ -1,0 +1,12 @@
+.weather-details {
+   width: 400px;
+   height: 225px;
+   flex-grow: 1;
+}
+
+.details-header {
+    text-align: center;
+    background-color: #D3D3D3;
+    color: white;
+    font-weight: bold;
+}
